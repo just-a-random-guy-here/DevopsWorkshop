@@ -14,3 +14,6 @@ def count_vowels(s):
 def is_palindrome(s):
     cleaned = "".join(char.lower() for char in s if char.isalnum())
     return cleaned == cleaned[::-1]
+
+def uppercase(s):
+    return s.upper()
